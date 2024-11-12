@@ -1,0 +1,155 @@
+---
+title: "Value Investment Strategies"
+subtitle: "A Systematic Literature Review"
+author: Rodrigo Emiliano dos Santos
+lang: en
+format:
+  pdf:
+    documentclass: article
+    papersize: a4paper
+    fontsize: 12pt
+    linestretch: 1.0
+    number-sections: true
+    indent: true
+    tbl-pos: 'H'
+    fig-pos: 'H'
+    colorlinks: TRUE
+    linkcolor: blue
+    link-citations: true
+    latex-auto-install: true
+    include-in-header: 
+      - text: |
+          \usepackage{indentfirst}
+bibliography: referencias.bibtex
+csl: associacao-brasileira-de-normas-tecnicas-ipea.csl
+crossref:
+  fig-prefix: 'Fig.'
+  tbl-prefix: 'Tab.'
+execute:
+  echo: false
+  message: false
+  warning: false
+  enabled: true
+editor: source
+keep-tex: true
+abstract: |
+  This paper aims to present a systematic review of the literature on the 
+  topic Value Investing and to measure in the literature whether the strategic 
+  approaches followed in recent contributions linked to the pioneer authors 
+  (Graham and Dodd, 1934; Fama and French, 1992) were able to identify returns 
+  above the market average. Also identify and measure places where the studies 
+  were done and main considerations and findings.\vspace{0.2cm} \linebreak 
+  \textbf{Keywords:} Value Investing, Jensen’s Alpha, Asset Pricing, 
+  CAPM, Fama and French
+---
+
+
+
+```{r}
+#| label: setup 
+
+# pacotes utilizados
+library(here)         # Permite utilizar caminhos relativos no projeto
+library(tidyverse)    # Metapacote que inclui dplyr, ggplot2, etc.
+```
+
+
+
+
+# Introduction {#sec-intro}
+
+Value investing is an investment strategy based on the fundamental 
+analysis of companies, seeking assets that are traded below their intrinsic 
+value. @graham1934security, were the 
+first to propose this methodology, where "value" investors aim to identify 
+stocks or other assets undervalued by the market, with potential for 
+long-term appreciation. This strategy involves evaluating financial 
+indicators, such as the price-to-book ratio, price-to-earnings ratio, and 
+other fundamental criteria.
+
+Value investing assumes that the market is not always efficient and that 
+there are investment opportunities in assets undervalued relative to their 
+intrinsic value. If the market were completely efficient, it would be 
+challenging to find undervalued assets since all relevant information would 
+already be reflected in prices. However, proponents of value investing argue 
+that the market is not perfectly efficient and that investors can identify 
+investment opportunities through fundamental analysis. This perspective 
+implies that asset prices may not fully reflect the available information 
+or that investors may underestimate or overestimate an asset's value, 
+allowing value investors to identify investment opportunities.
+
+@jensen1967performance was the first author to analyze the performance of 
+investment strategies implemented by portfolio managers, introducing the 
+analysis known as Jensen's alpha. His analysis was based on the CAPM 
+developed by @sharpe1964capital. However, CAPM was later heavily criticized by 
+@fama1992cross and @fama1993common, and current research has argued that 
+multifactor models can better explain the returns and excess returns 
+of investment portfolios [@fama2015five].
+
+In summary, value investing partially challenges the market efficiency 
+hypothesis, suggesting that investors can achieve superior returns by 
+identifying undervalued assets. In this article, a literature review is 
+proposed to seek evidence in the literature identifying abnormal returns.
+
+
+
+# Research Problem and Objectives {#sec-resprob}
+
+The main objective of this article is to identify value investing 
+methodologies developed by Benjamin Graham in the stock markets across 
+different regions and to measure whether their results have been able 
+to produce excess returns (positive Jensen’s alpha). In the authors' best 
+understanding, multifactor asset pricing models allow for greater accuracy 
+in specifying the return generation process of a value investing portfolio 
+and in estimating associated parameters, compared to CAPM. Thus, based on 
+the collected data, this study aims to determine whether the returns 
+generated are justified by the risk taken, according to models accepted by 
+academia.
+
+
+
+
+# Methodology {#sec-met}
+
+
+
+
+# Literature Review {#sec-litrev}
+
+
+## Strategic Approach to Value Investing According to Graham
+
+## The Strategic approach of Fama and French
+
+
+
+# Bibliometric Results {#sec-bibres}
+
+Você pode fazer uma referência-cruzada das figuras utilizando @fig-1
+
+![Título da figura 1](img/fig01.jpeg){#fig-1 fig-align="center" width="90%"}
+
+
+![Título da figura 2](img/fig02.jpeg){#fig-2 fig-align="center" width="80%"}
+
+
+![Título da figura 3](img/fig03.jpeg){#fig-3 fig-align="center" width="80%"}
+
+
+# Results {#sec-res}
+
+
+
+# Descriptive Conclusions {#sec-desconc}
+
+
+
+# Considerations {#sec-consid}
+
+
+
+
+# Referências {.unnumbered}
+
+::: {#refs}
+:::
